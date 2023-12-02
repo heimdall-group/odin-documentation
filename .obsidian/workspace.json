@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "bffcb89a349e5cb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "63dc15cb7b26d384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4035a17bfcb5f56d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Odin-website/1.0.0 Implement API File upload.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "12226f3710dca70e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c666a576e6ae9b86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d3ba2717f765eaa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a24be2a5087176a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c26142e47bd36cee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b2c582b6e24edd6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecfa3a7fa5a18e3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3090f9d77e783168",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Odin-website/1.0.0 Implement API File upload.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8639faa360de39e0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Odin-website/1.0.0 Implement API File upload.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cef86dddcb4e73a0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "10a5efa5e2358a8c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Odin-website/1.0.0 Implement API File upload.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-importer:Open Importer": false,
+      "card-board:CardBoard": false
+    }
+  },
+  "active": "4035a17bfcb5f56d",
+  "lastOpenFiles": [
+    "Odin-Documentation/Permissions.md",
+    "Odin-Templates/Table.md",
+    "Odin-website/1.0.0 Implement Access key.md",
+    "Odin-Documentation/v1 Objects/Return.md",
+    "Odin-Documentation/v1 Electron.md",
+    "Odin-Documentation/v1 Markdown.md",
+    "Odin-Documentation/v1 Composables.md",
+    "Odin-Documentation/Development - Production.md",
+    "Odin-website/1.0.0 Implement markdown support.md",
+    "Odin-website/1.0.0 Implement frontend design.md",
+    "Odin-website/1.0.0 Document all Types.md",
+    "Untitled 1.md",
+    "Odin-Documentation/v1 Objects/v1 Objects.md",
+    "Odin-Documentation/v1 API/Utils/getPermissionsObject.md",
+    "Odin-Documentation/v1 API/v1 API.md",
+    "Odin-Documentation/v1 API/Adding new API routes.md",
+    "Odin-website/1.0.0 Implement API structure.md",
+    "Odin-website/1.0.0 Implement CORS.md",
+    "Odin-website/1.0.0 Implement DiscordPing.md",
+    "Odin-website/1.0.0 Implement Electron.md",
+    "Odin-website/1.0.0 Implement Encryption.md",
+    "Odin-website/1.0.0 Implement event system.md",
+    "Odin-website/1.0.0 Implement news system.md",
+    "Odin-website/1.0.0 Implement notification system.md",
+    "Odin-website/1.0.0 Implement permissions system.md",
+    "Odin-website/1.0.0 Implement specific route generation.md",
+    "Odin-Documentation/v1 API/Utils",
+    "Untitled.loom",
+    "Odin-website/Untitled.loom",
+    "Odin-website/Untitled.canvas",
+    "Odin-website/Untitled 1.canvas",
+    "Odin-Documentation/v1 API/news/public",
+    "Odin-Documentation/v1 API/news",
+    "Odin-Documentation/v1 API/authenticate",
+    "Odin-Templates/v1 API",
+    "Odin-Documentation/v1 Objects",
+    "Odin-Documentation/v1 API",
+    "Odin-Templates"
+  ]
+}
