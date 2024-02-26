@@ -8,7 +8,7 @@
 |[[1.0.0 Implement API exclude keys]]|November 20, 2023 9:20 PM|To Do|
 |[[1.0.0 Implement API structure]]|November 3, 2023 8:21 PM|To Do|
 |[[1.0.0 Implement CORS]]|November 19, 2023 2:47 PM|To Do|
-|[[1.0.0 Implement DiscordPing]]|November 3, 2023 10:36 PM|To Do|
+|[[1.0.0 Implement DiscordPing (Bot)]]|November 3, 2023 10:36 PM|To Do|
 |[[1.0.0 Implement Electron]]|November 9, 2023 8:34 PM|To Do|
 |[[1.0.0 Implement Encryption]]|November 8, 2023 5:28 PM|To Do|
 |[[1.0.0 Implement event system]]|November 1, 2023 11:25 AM|To Do|

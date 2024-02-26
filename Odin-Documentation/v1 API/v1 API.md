@@ -25,6 +25,7 @@ Last edited time: 2023-11-21T23:02
 |[[writeEncryption]]|Encrypts provided String|
 |[[readEncryption]]|Decrypts provided String|
 |[[removeRequestKeys]]|Removes keys from Object|
+| [getEventsPipeline](getEventsPipeline.md) | Returns a pipeline for getting events |
 
   
 

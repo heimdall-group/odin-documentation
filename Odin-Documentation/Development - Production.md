@@ -10,11 +10,11 @@ This document will provide an idea of the intended workflow while working in Odi
 
 ### Table of contents:
 
-- [[Development - Production]]
-    - [[Development - Production]]
-    - [[Development - Production]]
-    - [[Development - Production]]
-- [[Development - Production]]
+- [Development flow](#Development%20flow)
+    - [App](#App)
+    - [Website](#Website)
+    - [Internal Functions](#Internal%20Functions)
+- [NPM commands](#NPM%20commands)
 
   
 
@@ -48,9 +48,8 @@ Nuxt provides hot reloading (auto refresh when files are changed) during develop
 
 Since this project frontend renderd as Website and Desktop application certain interval functions has been built to provide a better code structure in frontend files.
 
-|   |   |   |
-|---|---|---|
 |Name|Page|Description|
+|---|---|---|
 |useInternalFetch|TBD|Adds a base url to every request. Used when fetching from API|
 |useInternalCookie|TBD|Depending on environment different storage solutions are used|
 
@@ -64,9 +63,8 @@ Tables are in chronological order (first row triggers first).
 
 Description: Builds production web application.
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |set ENVIRONMENT=web|Sets Environment variable to web|
 |set PRODUCTION=1|Sets Production to true|
 |nuxt build|Triggers nuxt build command|
@@ -75,9 +73,8 @@ Description: Builds production web application.
 
 Description: Starts development web environment
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |set ENVIRONMENT=web|Sets Environment variable to web|
 |set PRODUCTION=0|Sets Production to false|
 |nuxt dev|Triggers nuxt dev command|
@@ -86,9 +83,8 @@ Description: Starts development web environment
 
 Description: Prerenders all /app routes that [[v1 Electron]] uses.
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |set ENVIRONMENT=app|Sets Environment variable to app|
 |npx nuxi generate|Triggers nuxi generate command|
 
@@ -96,9 +92,8 @@ Description: Prerenders all /app routes that [[v1 Electron]] uses.
 
 Description: Prerenders all /app routes that [[v1 Electron]] uses.
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |set ENVIRONMENT=web|Sets Environment variable to web|
 |nuxt build|Triggers nuxt build command|
 
@@ -106,30 +101,26 @@ Description: Prerenders all /app routes that [[v1 Electron]] uses.
 
 Description:
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |set PRODUCTION=0|Sets Production to false|
-|npm run app:frontend|Triggers [[Development - Production]]|
-|npm run app:dev-backend|Triggers [[Development - Production]]|
+|npm run app:dev-assets|Triggers [app:dev-assets](#app%20dev-assets)|
 |electron-builder|Builds Electron application|
 
 ### app:dev-assets
 
 Description:
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |set PRODUCTION=0|Sets Production to false|
-|npm run app:frontend|Triggers [[Development - Production]]|
-|npm run app:dev-backend|Triggers [[Development - Production]]|
+|npm run app:frontend|Triggers [app frontend](#app%20frontend)|
+|npm run app:dev-backend|Triggers [app dev-backend](#app%20dev-backend)|
 
 ### app:start-dev
 
 Description: Starts electron application. If in development (PRODUCTION = 0) a nuxt development instance will be booted in the background to simulate a production deployment.
 
-|   |   |
-|---|---|
 |Action|Description|
+|---|---|
 |electron .|Starts electron application|
